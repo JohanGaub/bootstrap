@@ -1,0 +1,33 @@
+.case1 {
+  background-color: lightgrey;
+}
+.case2 {
+  background-color: lightgreen;
+}
+.BORDER {
+  border: solid black 5px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .case2, .case1 {
+    height: 35px;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .case2, .case1 {
+    height: 70px;
+         }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .case2, .case1 {
+    height: 90px;
+         }
+}
+
+@media screen and (min-width: 1201px) {
+  .case2, .case1 {
+    height: 115px;
+         }
+}
